@@ -1,0 +1,15 @@
+node_modules/
+out/
+dist/
+.vite/
+*.log
+.env
+
+# 真实配置与私有内容，永不入库
+configwright.yaml
+configwright.local.yaml
+*.local.md
+state.json*
+decisions*.json
+/tx/
+/snapshots/
